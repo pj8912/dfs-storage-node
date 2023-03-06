@@ -1,8 +1,11 @@
+import p2p 
+
 class StorageNode:
     
-    def __init__(self, node_id):
+    def __int__(self):
         
-        self.nodeid = node_id
+        self.node_id = p2p.node_id.generate_nodeid()
+
         
     
     def storeFile():
